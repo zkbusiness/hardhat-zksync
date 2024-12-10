@@ -1,5 +1,22 @@
 # @matterlabs/hardhat-zksync-node
 
+## [1.3.0](https://github.com/zkbusiness/hardhat-zksync/compare/@matterlabs/hardhat-zksync-node-v1.2.0...@matterlabs/hardhat-zksync-node-v1.3.0) (2024-12-10)
+
+
+### Features
+
+* bump ethers, zksync-ethers, hardaht and other dependencies to newer versions ([#1111](https://github.com/zkbusiness/hardhat-zksync/issues/1111)) ([a2d503a](https://github.com/zkbusiness/hardhat-zksync/commit/a2d503abe3f504859651f22998046576eddf6579))
+* get release tag from redirect url at node plugin ([#668](https://github.com/zkbusiness/hardhat-zksync/issues/668)) ([5d53b27](https://github.com/zkbusiness/hardhat-zksync/commit/5d53b270428fc3bd7a6338d0bab38a7f52d485d1))
+* override run task for zksync hardhat network ([#1462](https://github.com/zkbusiness/hardhat-zksync/issues/1462)) ([a49c593](https://github.com/zkbusiness/hardhat-zksync/commit/a49c5932abcb7e5244314471c9b7f701c1c90a20))
+* switch to the default codegen with zksolc ([#1062](https://github.com/zkbusiness/hardhat-zksync/issues/1062)) ([5ec997a](https://github.com/zkbusiness/hardhat-zksync/commit/5ec997aaa83ba18d978f10b96f489513f6c4dd9f))
+
+
+### Bug Fixes
+
+* properly constructor fork arguments ([#927](https://github.com/zkbusiness/hardhat-zksync/issues/927)) ([bfe8970](https://github.com/zkbusiness/hardhat-zksync/commit/bfe897019bae72abd1ae0f3d6f69c2c4bb6038cd))
+* remove zksync-ethers dependency  ([#920](https://github.com/zkbusiness/hardhat-zksync/issues/920)) ([d4a1ac8](https://github.com/zkbusiness/hardhat-zksync/commit/d4a1ac80727d9de38460373cd07245ba2b747eea))
+* update links to new doc site ([276740b](https://github.com/zkbusiness/hardhat-zksync/commit/276740ba5abf8b5775e135b5653824d6456a7e4f))
+
 ## [1.2.0](https://github.com/matter-labs/hardhat-zksync/compare/@matterlabs/hardhat-zksync-node-v1.1.1...@matterlabs/hardhat-zksync-node-v1.2.0) (2024-10-24)
 
 
