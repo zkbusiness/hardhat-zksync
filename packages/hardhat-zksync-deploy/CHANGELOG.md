@@ -1,5 +1,26 @@
 # @matterlabs/hardhat-zksync-deploy
 
+## [1.7.0](https://github.com/zkbusiness/hardhat-zksync/compare/@matterlabs/hardhat-zksync-deploy-v1.6.0...@matterlabs/hardhat-zksync-deploy-v1.7.0) (2024-12-10)
+
+
+### Features
+
+* bump ethers, zksync-ethers, hardaht and other dependencies to newer versions ([#1111](https://github.com/zkbusiness/hardhat-zksync/issues/1111)) ([a2d503a](https://github.com/zkbusiness/hardhat-zksync/commit/a2d503abe3f504859651f22998046576eddf6579))
+* introducing a new deploy-zksync:contract task to compile and deploy one contract ([#987](https://github.com/zkbusiness/hardhat-zksync/issues/987)) ([7f983e2](https://github.com/zkbusiness/hardhat-zksync/commit/7f983e2dbc28b072901403e0f375ef798716129e))
+* introducing ethers extension in hre ([#1283](https://github.com/zkbusiness/hardhat-zksync/issues/1283)) ([8e471bc](https://github.com/zkbusiness/hardhat-zksync/commit/8e471bcbbbf1ee712fe79cd5d5782c11e52e3b75))
+* override run task for zksync hardhat network ([#1462](https://github.com/zkbusiness/hardhat-zksync/issues/1462)) ([a49c593](https://github.com/zkbusiness/hardhat-zksync/commit/a49c5932abcb7e5244314471c9b7f701c1c90a20))
+* support for scripts tags, order, integrated deployer inside HRE ([#762](https://github.com/zkbusiness/hardhat-zksync/issues/762)) ([a6b7828](https://github.com/zkbusiness/hardhat-zksync/commit/a6b7828cd390087f426c97439eb1a2aeb686cf95))
+* switch to the default codegen with zksolc ([#1062](https://github.com/zkbusiness/hardhat-zksync/issues/1062)) ([5ec997a](https://github.com/zkbusiness/hardhat-zksync/commit/5ec997aaa83ba18d978f10b96f489513f6c4dd9f))
+* use deployment type in the deploy function ([#1090](https://github.com/zkbusiness/hardhat-zksync/issues/1090)) ([05b2262](https://github.com/zkbusiness/hardhat-zksync/commit/05b2262ff148369297c2098a95775d265b3efd41))
+
+
+### Bug Fixes
+
+* set forceDeploy to true as a default value ([#848](https://github.com/zkbusiness/hardhat-zksync/issues/848)) ([326b94f](https://github.com/zkbusiness/hardhat-zksync/commit/326b94f3192ae1177f5b92c186c458df246f865e))
+* support for non-inline libraries 'export default' expressions and zksolc is not reqired for config update ([#853](https://github.com/zkbusiness/hardhat-zksync/issues/853)) ([dbfe6af](https://github.com/zkbusiness/hardhat-zksync/commit/dbfe6af0590d85da877a6f541244492fc0efcb67))
+* update deploy cache logic with script load path support for windows ([#865](https://github.com/zkbusiness/hardhat-zksync/issues/865)) ([c30e276](https://github.com/zkbusiness/hardhat-zksync/commit/c30e276903e97b12283bb742659e513bdb9dafe6))
+* update links to new doc site ([276740b](https://github.com/zkbusiness/hardhat-zksync/commit/276740ba5abf8b5775e135b5653824d6456a7e4f))
+
 ## [1.6.0](https://github.com/matter-labs/hardhat-zksync/compare/@matterlabs/hardhat-zksync-deploy-v1.5.0...@matterlabs/hardhat-zksync-deploy-v1.6.0) (2024-10-24)
 
 
