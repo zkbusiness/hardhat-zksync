@@ -1,5 +1,22 @@
 # @matterlabs/hardhat-zksync
 
+## [1.4.0](https://github.com/zkbusiness/hardhat-zksync/compare/@matterlabs/hardhat-zksync-v1.3.0...@matterlabs/hardhat-zksync-v1.4.0) (2024-12-10)
+
+
+### Features
+
+* bump ethers, zksync-ethers, hardaht and other dependencies to newer versions ([#1111](https://github.com/zkbusiness/hardhat-zksync/issues/1111)) ([a2d503a](https://github.com/zkbusiness/hardhat-zksync/commit/a2d503abe3f504859651f22998046576eddf6579))
+* bump openzeppelin contracts to v5 ([#1463](https://github.com/zkbusiness/hardhat-zksync/issues/1463)) ([ebb668b](https://github.com/zkbusiness/hardhat-zksync/commit/ebb668b0f88a39f23009d8697bb6d7e534d46928))
+* introducing ethers extension in hre ([#1283](https://github.com/zkbusiness/hardhat-zksync/issues/1283)) ([8e471bc](https://github.com/zkbusiness/hardhat-zksync/commit/8e471bcbbbf1ee712fe79cd5d5782c11e52e3b75))
+* remove zksync contracts dependecy ([#1450](https://github.com/zkbusiness/hardhat-zksync/issues/1450)) ([a70bbaf](https://github.com/zkbusiness/hardhat-zksync/commit/a70bbaf7205e91c3e6fe5cece3fb54f11100583e))
+* replacing the toolbox plugin with hardhat-zksync ([#994](https://github.com/zkbusiness/hardhat-zksync/issues/994)) ([c8d8e6d](https://github.com/zkbusiness/hardhat-zksync/commit/c8d8e6d3e0e9c4f410122694938644aaec9757eb))
+* switch to the default codegen with zksolc ([#1062](https://github.com/zkbusiness/hardhat-zksync/issues/1062)) ([5ec997a](https://github.com/zkbusiness/hardhat-zksync/commit/5ec997aaa83ba18d978f10b96f489513f6c4dd9f))
+
+
+### Bug Fixes
+
+* update links to new doc site ([276740b](https://github.com/zkbusiness/hardhat-zksync/commit/276740ba5abf8b5775e135b5653824d6456a7e4f))
+
 ## [1.3.0](https://github.com/matter-labs/hardhat-zksync/compare/@matterlabs/hardhat-zksync-v1.2.0...@matterlabs/hardhat-zksync-v1.3.0) (2024-10-24)
 
 
