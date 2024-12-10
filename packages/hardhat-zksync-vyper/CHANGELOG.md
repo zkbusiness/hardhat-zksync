@@ -1,5 +1,21 @@
 # @matterlabs/hardhat-zksync-vyper
 
+## [1.2.0](https://github.com/zkbusiness/hardhat-zksync/compare/@matterlabs/hardhat-zksync-vyper-v1.1.1...@matterlabs/hardhat-zksync-vyper-v1.2.0) (2024-12-10)
+
+
+### Features
+
+* bump ethers, zksync-ethers, hardaht and other dependencies to newer versions ([#1111](https://github.com/zkbusiness/hardhat-zksync/issues/1111)) ([a2d503a](https://github.com/zkbusiness/hardhat-zksync/commit/a2d503abe3f504859651f22998046576eddf6579))
+
+
+### Bug Fixes
+
+* add gnu toolchain for linux as default from compiler version 1.5.4 ([#1359](https://github.com/zkbusiness/hardhat-zksync/issues/1359)) ([4272477](https://github.com/zkbusiness/hardhat-zksync/commit/4272477e9a132ba7f36c24a14a4ac15ea65f1c65))
+* download zkvyper if needed before compilation ([#1484](https://github.com/zkbusiness/hardhat-zksync/issues/1484)) ([9763aba](https://github.com/zkbusiness/hardhat-zksync/commit/9763aba2c84cc2c53915e1aa9ca9e3be81ea083e))
+* set zkvyper compiler version for specified compiler path ([#817](https://github.com/zkbusiness/hardhat-zksync/issues/817)) ([293dfba](https://github.com/zkbusiness/hardhat-zksync/commit/293dfba9287ab94400a954784093a2b5720ca716))
+* support new naming for proxy at forwarder contracts ([#809](https://github.com/zkbusiness/hardhat-zksync/issues/809)) ([1e31289](https://github.com/zkbusiness/hardhat-zksync/commit/1e31289d3011f5e71a843455a12ba1062f1d6050))
+* update links to new doc site ([276740b](https://github.com/zkbusiness/hardhat-zksync/commit/276740ba5abf8b5775e135b5653824d6456a7e4f))
+
 ## [1.1.1](https://github.com/matter-labs/hardhat-zksync/compare/@matterlabs/hardhat-zksync-vyper-v1.1.0...@matterlabs/hardhat-zksync-vyper-v1.1.1) (2024-10-21)
 
 
